@@ -1,0 +1,36 @@
+{
+    "solution": {
+        "teamsAppTenantId": "00000000-0000-0000-0000-000000000000",
+        "subscriptionId":   "00000000-0000-0000-0000-000000000000",
+        "subscriptionName": "Microsoft Azure",
+        "tenantId": "00000000-0000-0000-0000-000000000000",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "yepmessext-dev-rg",
+        "location": "East US",
+        "resourceNameSuffix": "000000",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "00000000-0000-0000-0000-000000000000",
+        "teamsAppId": "00000000-0000-0000-0000-000000000000",
+        "teamsAppUpdatedAt": 1654761643487
+    },
+    "fx-resource-identity": {
+        "identityName": "yepmessextdev5f3c4c",
+        "identityResourceId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/yepmessext-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/yepmessextdev5f3c4c",
+        "identityClientId": "00000000-0000-0000-0000-000000000000"
+    },
+    "fx-resource-bot": {
+        "botId": "00000000-0000-0000-0000-000000000000",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "objectId": "00000000-0000-0000-0000-000000000000",
+        "skuName": "B1",
+        "siteName": "yepmessextdev5f3c4cbot",
+        "validDomain": "yepmessextdev5f3c4cbot.azurewebsites.net",
+        "appServicePlanName": "yepmessextdev5f3c4cbot",
+        "botWebAppResourceId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/yepmessext-dev-rg/providers/Microsoft.Web/sites/yepmessextdev5f3c4cbot",
+        "siteEndpoint": "https://yepmessextdev5f3c4cbot.azurewebsites.net"
+    },
+    "fx-resource-cicd": {},
+    "fx-resource-api-connector": {}
+}
