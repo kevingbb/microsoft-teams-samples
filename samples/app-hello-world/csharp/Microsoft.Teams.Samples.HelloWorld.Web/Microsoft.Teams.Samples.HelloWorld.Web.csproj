@@ -24,8 +24,8 @@
     </Content>
   </ItemGroup>
 
-    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <!-- <Target Name="PostBuild" AfterTargets="PostBuildEvent">
       <Exec Command="powershell.exe Compress-Archive -Path \&quot;$(ProjectDir)Manifest\*\&quot; -DestinationPath \&quot;$(TargetDir)helloworldapp.zip\&quot; -Force" />
-    </Target>
+    </Target> -->
 
 </Project>
